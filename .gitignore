@@ -1,0 +1,45 @@
+# Maven target directory (compiled binaries and temporary files)
+/target/
+
+# Maven-specific files
+dependency-reduced-pom.xml
+release.properties
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+*.log
+
+# VS Code specific files
+.vscode/
+*.code-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.out
+
+# Temporary files
+*.tmp
+*.swp
+
+# IDE-specific files (optional if shared development)
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# Java-specific files
+*.class
+*.jar
+*.war
+*.ear
+
+# Environment files
+.env
+.env.local
+.env.*.local
