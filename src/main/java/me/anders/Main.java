@@ -46,7 +46,7 @@ public class Main {
 	public static void runGame() {
 		System.out.print("\033[2J\033[1;1H");
 		final int TOTAL_SQUARES = 80;
-		final int SQUARES_TO_SOLVE = 1;
+		final int SQUARES_TO_SOLVE = 5;
 
 		Scanner scanner = new Scanner(System.in);
 		Solver solver = new Solver();
@@ -100,21 +100,7 @@ public class Main {
 	public static void main(String[] args) {
 		System.out.print("\033[2J\033[1;1H");
 
-		Solver solver = new Solver();
-
-		for (int i = 0; i < 3; i++) {
-			Board board = solver.createSolvedBoardWithBacktrack();
-			board.print();
-			System.out.print("\n");
-		}
-		// Board board = solver.createStartingBoard(0);
-		// board.print();
-
-		// boolean managedToSolveBoard = solver.solveCell(board, 0);
-		// System.out.println("Managed to solve board = " + managedToSolveBoard);
-		// board.print();
-		// System.out.println("\n\nisLegalBoard(board) = " + isLegalBoard(board));
-		// System.out.println("isFilled(board) = " + isFilled(board));
-
+		runGame();
 	}
+
 }
